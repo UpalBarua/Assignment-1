@@ -1,0 +1,112 @@
+/* RESETS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* BANNER */
+.btn {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(231, 90, 75);
+  font-size: 1.125rem;
+  padding: .85rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+}
+
+.banner__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('./images/donation1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 30rem;
+}
+
+.banner__title {
+  font-family: 'Playfair Display';
+  font-size: 3.25rem;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.banner__text {
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.95);
+  width: 40%;
+  margin-bottom: 1rem;
+}
+
+/* DONATE */
+.donate__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.donate__title {
+  font-size: 2.25rem;
+  font-family: 'Playfair Display';
+}
+
+.donate__text {
+  font-size: 1.125rem;
+  width: 40%;
+  color: rgba(0, 0, 0, 0.60);
+  margin-bottom: 1.25rem;
+}
+
+.donate__amount-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2.25rem;
+}
+
+.donate__amount-item {
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1.25em 1.65rem;
+  /* margin: 10px; */
+  border-radius: 6px;
+}
+
+.donate__amount-list .selected {
+  color: rgb(231, 90, 75);
+  background-color: rgba(231, 91, 75, 0.15);
+  border: 2px solid rgb(231, 90, 75);
+}
+
+#donate__amount-input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: .5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.donate__btn {
+  display: block;
+  margin: 0 auto;
+}
