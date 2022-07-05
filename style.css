@@ -62,13 +62,15 @@ body {
 }
 
 .donate__title,
-.plan__title {
+.plan__title,
+.contribute__title {
   font-size: 2.25rem;
   font-family: 'Playfair Display';
 }
 
 .donate__text,
-.plan__text {
+.plan__text,
+.contribute__text {
   font-size: 1.125rem;
   width: 40%;
   color: rgba(0, 0, 0, 0.60);
@@ -148,4 +150,38 @@ body {
   color: rgba(0, 0, 0, 0.6);
 }
 
+/* CONTRIBUTE */
+.contribute__container {
+  margin: 0 auto;
+  width: 80%;
+}
 
+.contribute__card-1,
+.contribute__card-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contribute__card-1 {
+  margin-bottom: 4rem;
+}
+
+.contribute__title {
+  margin-bottom: 1.5rem;
+}
+
+.contribute__text {
+  width: 80%;
+}
+
+.contribute__btn {
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.contribute__img {
+  border-radius: 6px;
+  width: 100%;
+}
