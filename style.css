@@ -32,6 +32,7 @@ body {
   background-size: cover;
   color: #fff;
   height: 30rem;
+  margin-bottom: 6rem;
 }
 
 .banner__title {
@@ -49,22 +50,25 @@ body {
 }
 
 /* DONATE */
-.donate__container {
+.donate__container,
+.plan__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
   align-items: center;
   text-align: center;
-  padding: 5rem 0;
+  margin-bottom: 6rem;
 }
 
-.donate__title {
+.donate__title,
+.plan__title {
   font-size: 2.25rem;
   font-family: 'Playfair Display';
 }
 
-.donate__text {
+.donate__text,
+.plan__text {
   font-size: 1.125rem;
   width: 40%;
   color: rgba(0, 0, 0, 0.60);
@@ -92,7 +96,7 @@ body {
 
 .donate__amount-list .selected {
   color: rgb(231, 90, 75);
-  background-color: rgba(231, 91, 75, 0.15);
+  background-color: rgba(231, 90, 75, 0.15);
   border: 2px solid rgb(231, 90, 75);
 }
 
@@ -110,3 +114,38 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+/* PLAN */
+.plan__cards {
+  width: 80%;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.plan__cards .active {
+  background-color: rgba(173, 216, 230, 0.15);
+}
+
+.plan__card {
+  background-color: rgba(231, 90, 75, 0.15);
+  text-align: left;
+  padding: 4rem 1.65rem;
+  border-radius: 6px;
+}
+
+.plan__card-icon {
+  margin-bottom: 1.5rem;
+}
+
+.plan__card-title {
+  font-size: 1.65rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.plan__card-text {
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
