@@ -17,17 +17,17 @@
   </head>
   <body>
     <!-- BANNER SECTION -->
-    <div class="banner__container">
+    <main class="banner__container">
       <h1 class="banner__title">Let's Help Those Who Are More In Need</h1>
       <p class="banner__text">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsum
         nulla vitae nisi voluptatum, fuga harum veritatis consequuntur quo ut.
       </p>
-      <a href="#" class="banner__btn btn">Donate Now</a>
-    </div>
+      <a href="#" class="banner__btn">Donate Now</a>
+    </main>
 
     <!-- DONATE SECTION -->
-    <div class="donate__container">
+    <section class="donate__container">
       <h2 class="donate__title">Donate Today</h2>
       <p class="donate__text">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat iste
@@ -48,13 +48,13 @@
             id="donate__amount-input"
             placeholder="Other Amount (Taka)"
           />
-          <button type="submit" class="donate__btn btn">Donate Now</button>
+          <button type="submit" class="donate__btn">Donate Now</button>
         </form>
       </div>
-    </div>
+    </section>
 
     <!-- PLAN SECTION -->
-    <div class="plan__container">
+    <section class="plan__container">
       <h2 class="plan__title">Our Donate Plan</h2>
       <p class="plan__text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus labore
@@ -100,62 +100,71 @@
           </p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- CONTRIBUTE SECTION -->
-    <div class="contribute__container">
-      <div class="contribute__card-1">
-        <div class="contribute__card-left">
-          <h2 class="contribute__title">
-            Their lives depends on your donation
-          </h2>
-          <p class="contribute__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
-            officiis ea sed, dolores repudiandae deserunt consequuntur sapiente
-            nobis explicabo possimus!
+    <section class="volunteer__container">
+      <h2 class="volunteer__title">Help by Volunteering</h2>
+      <p class="volunteer__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed
+        molestias nostrum voluptates perferendis qui. Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Corrupti, atque.
+      </p>
+      <a href="#" class="volunteer__btn">How to Volunteer?</a>
+    </section>
+
+    <!-- CAUSES SECTION -->
+    <section class="causes__container">
+      <h2 class="causes__title">Other Causes</h2>
+      <p class="causes__text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea unde nisi,
+        sequi accusamus est architecto eum ad consectetur hic autem?
+      </p>
+      <div class="causes__card-container">
+        <div class="causes__card">
+          <img
+            src="./images/sitakuna__fire.jpg"
+            alt=""
+            class="causes__card-img"
+          />
+          <h3 class="causes__card-title">Sitakunda fire</h3>
+          <p class="causes__card-text">
+            On the night of 4 June 2022, a fire and subsequent explosions at a
+            container depot in Sitakunda Upazila, Chittagong District,
+            Bangladesh killed at least 47 people and injured around 450 others
           </p>
-          <p class="contribute__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            libero et obcaecati qui natus! Suscipit.
-          </p>
-          <a href="#" class="contribute__btn btn">How to Contribute?</a>
+          <a href="#" class="causes__card-btn">Help</a>
         </div>
 
-        <div class="contribute__right">
+        <div class="causes__card">
+          <img src="./images/rohingya2.jpg" alt="" class="causes__card-img" />
+          <h3 class="causes__card-title">Rohingya refugees</h3>
+          <p class="causes__card-text">
+            On 28 September 2018, at the 73rd United Nations General Assembly
+            (UNGA), Bangladeshi Prime Minister Sheikh Hasina said there are 1.1
+            million Rohingya refugees now in Bangladesh.
+          </p>
+          <a href="#" class="causes__card-btn">Help</a>
+        </div>
+
+        <div class="causes__card">
           <img
-            src="./images/donation6.jpg"
-            alt="Contribute Image"
-            class="contribute__img"
+            src="./images/tree__plantation.jpg"
+            alt=""
+            class="causes__card-img"
           />
+          <h3 class="causes__card-title">Roadside Tree Plantation</h3>
+          <p class="causes__card-text">
+            45,000 tree saplings will be planted on rural roads in Bangladesh.
+            Legal agreements will ensure that 60% tree wealth created will
+            belong to the poorest families (45 kms.x15=675 families).
+          </p>
+          <a href="#" class="causes__card-btn">Help</a>
         </div>
       </div>
-
-      <div class="contribute__card-2">
-        <div class="contribute__left">
-          <img
-            src="./images/donation3.jpg"
-            alt="Contribute Image"
-            class="contribute__img"
-          />
-        </div>
-        <div class="contribute__card-right">
-          <h2 class="contribute__title">They need us to survive</h2>
-          <p class="contribute__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
-            officiis ea sed, dolores repudiandae deserunt consequuntur sapiente
-            nobis explicabo possimus!
-          </p>
-          <p class="contribute__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            libero et obcaecati qui natus! Suscipit.
-          </p>
-          <a href="#" class="contribute__btn btn">How to Contribute?</a>
-        </div>
-      </div>
-    </div>
+    </section>
 
     <!-- UPDATE SECTION-->
-    <div class="newsletter__container">
+    <section class="newsletter__container">
       <h2 class="newsletter__title">Get My Update</h2>
       <p class="newsletter__text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ipsum
@@ -168,9 +177,9 @@
           id="newsletter__input"
           placeholder="Email"
         />
-        <button class="newsletter__btn btn">Subscribe</button>
+        <button class="newsletter__btn">Subscribe</button>
       </form>
-    </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="footer__container">
